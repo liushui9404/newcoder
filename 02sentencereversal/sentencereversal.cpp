@@ -10,7 +10,8 @@ int main()
     while(getline(cin,sentence))
     {
         reverse(sentence.begin(),sentence.end());
-        unsigned i = 0,j = 1;
+        cout<<"sentence  "<<sentence<<endl;;
+        unsigned i = 0,j = 0;
         while(i<sentence.size())
         {
             while(i<sentence.size() && sentence[i] != ' ')
